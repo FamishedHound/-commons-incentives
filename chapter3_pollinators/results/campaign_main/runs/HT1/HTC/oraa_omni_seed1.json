@@ -1,0 +1,64 @@
+{
+  "alphas": [
+    0.4,
+    1.0,
+    0.5,
+    0.6
+  ],
+  "community": "HT1",
+  "condition": "oraa_omni",
+  "environment": {
+    "cuda_device": "NVIDIA GeForce RTX 5090",
+    "numpy": "2.1.2",
+    "optuna": "4.9.0",
+    "package_version": "1.0.0",
+    "python": "3.13.5",
+    "torch": "2.8.0+cu129"
+  },
+  "government": "HTC",
+  "kind": "branch",
+  "metrics": {
+    "budget_gross": 1.0361912784503264,
+    "budget_net": -0.6896640410506081,
+    "budget_penalties": -1.7258553195009347,
+    "cumulative_net_budget": -827.5968492607298,
+    "global_pollination_reward": 0.39116666666666666,
+    "greedy_fraction": 0.5916666666666667,
+    "mean_declared_habitat": 0.4307253472222222,
+    "oraa_best_objective": 0.288375983895734,
+    "pollination_difference": 0.3140274305555556,
+    "pollination_difference_action": 0.314564104561033,
+    "pollination_difference_pp": 31.40274305555556,
+    "received_reward_per_agent": 0.29040892542340996,
+    "reward_per_agent": 0.09403645833333332,
+    "signed_target_gap": 0.06927465277777779,
+    "steps": 1200
+  },
+  "metrics_greedy": {
+    "budget_gross": 1.0193391621998082,
+    "budget_net": -0.7108854500753843,
+    "budget_penalties": -1.7302246122751923,
+    "cumulative_net_budget": -504.7286695535228,
+    "global_pollination_reward": 0.32758802816901406,
+    "greedy_fraction": 1.0,
+    "mean_declared_habitat": 0.3781848591549296,
+    "oraa_best_objective": 0.2886535213835223,
+    "pollination_difference": 0.2878151408450704,
+    "pollination_difference_action": 0.28865352679849093,
+    "pollination_difference_pp": 28.781514084507045,
+    "received_reward_per_agent": 0.2837893994688921,
+    "reward_per_agent": 0.08551782570422534,
+    "signed_target_gap": 0.12181514084507046,
+    "steps": 710
+  },
+  "oraa_trials": 500,
+  "runtime_s": 8026.871132612228,
+  "seed": 1,
+  "steps": 1200,
+  "targets": [
+    0.2,
+    0.1,
+    0.8,
+    0.9
+  ]
+}

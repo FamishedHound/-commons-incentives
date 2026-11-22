@@ -1,0 +1,27 @@
+# Scoped to chapter3_pollinators.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+
+# Per-step arrays of the runs: published as the release asset chapter3_runs.zip
+# and unpacked into results/campaign_main/ (see README.md).
+results/**/*.npz
+
+# Checkpoints of a campaign (a few hundred MB per warm-up).
+results/**/*.pt
+
+# Files the campaign scheduler writes while it runs.
+results/**/logs/
+results/**/status/
+results/**/plan.json
+results/**/step_costs.json
+results/**/control.json
+results/**/STOP
+results/**/PROGRESS.md
+results/**/progress.json
+results/**/scheduler.log
+results/**/scheduler.out
+results/**/scheduler.pid
+results/**/scheduler_state.json

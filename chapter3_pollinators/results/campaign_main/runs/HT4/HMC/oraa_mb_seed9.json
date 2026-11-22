@@ -1,0 +1,70 @@
+{
+  "alphas": [
+    1.0,
+    0.9,
+    0.8,
+    0.4
+  ],
+  "community": "HT4",
+  "condition": "oraa_mb",
+  "environment": {
+    "cuda_device": "NVIDIA GeForce RTX 5090",
+    "numpy": "2.1.2",
+    "optuna": "4.9.0",
+    "package_version": "1.0.0",
+    "python": "3.13.5",
+    "torch": "2.8.0+cu129"
+  },
+  "government": "HMC",
+  "kind": "branch",
+  "metrics": {
+    "budget_gross": 0.8050665783083507,
+    "budget_net": -0.5015901885195501,
+    "budget_penalties": -1.3066567668279008,
+    "cumulative_net_budget": -601.90822622346,
+    "global_pollination_reward": 0.3563229166666667,
+    "greedy_fraction": 0.595,
+    "mean_declared_habitat": 0.393503125,
+    "model_distance_greedy": 3.219333333333333,
+    "model_distance_taken": 4.731166666666667,
+    "model_mean_action_error": 0.053613761196372754,
+    "oraa_best_objective": 0.03485945461814602,
+    "pollination_difference": 0.11902118055555555,
+    "pollination_difference_action": 0.11748076821153189,
+    "pollination_difference_pp": 11.902118055555555,
+    "received_reward_per_agent": 0.23644999477739784,
+    "reward_per_agent": 0.05451938368055553,
+    "signed_target_gap": -0.043503125000000024,
+    "steps": 1200
+  },
+  "metrics_greedy": {
+    "budget_gross": 0.7841267343819235,
+    "budget_net": -0.5483325595495441,
+    "budget_penalties": -1.3324592939314674,
+    "cumulative_net_budget": -391.50944751837443,
+    "global_pollination_reward": 0.27093837535014004,
+    "greedy_fraction": 1.0,
+    "mean_declared_habitat": 0.316499766573296,
+    "model_distance_greedy": 3.2169467787114847,
+    "model_distance_taken": 3.2169467787114847,
+    "model_mean_action_error": 0.05282100985625964,
+    "oraa_best_objective": 0.03463645907593708,
+    "pollination_difference": 0.07753968253968252,
+    "pollination_difference_action": 0.07553862862013307,
+    "pollination_difference_pp": 7.753968253968252,
+    "received_reward_per_agent": 0.22573537202517638,
+    "reward_per_agent": 0.04244987161531277,
+    "signed_target_gap": 0.03350023342670399,
+    "steps": 714
+  },
+  "oraa_trials": 500,
+  "runtime_s": 8244.571422338486,
+  "seed": 9,
+  "steps": 1200,
+  "targets": [
+    0.35,
+    0.35,
+    0.35,
+    0.35
+  ]
+}

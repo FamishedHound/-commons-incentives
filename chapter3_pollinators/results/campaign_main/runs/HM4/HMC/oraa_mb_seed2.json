@@ -1,0 +1,71 @@
+{
+  "alphas": [
+    0.6,
+    0.6,
+    0.6,
+    0.6
+  ],
+  "community": "HM4",
+  "condition": "oraa_mb",
+  "environment": {
+    "cuda_device": "NVIDIA GeForce RTX 5090",
+    "numpy": "2.1.2",
+    "optuna": "4.9.0",
+    "package_version": "1.0.0",
+    "python": "3.13.5",
+    "torch": "2.8.0+cu129"
+  },
+  "government": "HMC",
+  "kind": "branch",
+  "metrics": {
+    "budget_gross": 1.1146238291669532,
+    "budget_net": -0.07952909740385787,
+    "budget_penalties": -1.1941529265708115,
+    "cumulative_net_budget": -95.43491688462944,
+    "global_pollination_reward": 0.377328125,
+    "greedy_fraction": 0.5991666666666666,
+    "mean_declared_habitat": 0.4042090277777778,
+    "model_distance_greedy": 3.0552499999999996,
+    "model_distance_taken": 4.752916666666667,
+    "model_mean_action_error": 0.07378868677822373,
+    "oraa_best_objective": 0.03203926729286711,
+    "pollination_difference": 0.12378472222222224,
+    "pollination_difference_action": 0.12300070459362152,
+    "pollination_difference_pp": 12.378472222222223,
+    "received_reward_per_agent": 0.31222779751205737,
+    "reward_per_agent": 0.07939895833333332,
+    "signed_target_gap": -0.0542090277777778,
+    "steps": 1200
+  },
+  "metrics_greedy": {
+    "budget_gross": 1.105149159873917,
+    "budget_net": -0.10336906479740368,
+    "budget_penalties": -1.2085182246713206,
+    "cumulative_net_budget": -74.32235758933325,
+    "global_pollination_reward": 0.3033814325452017,
+    "greedy_fraction": 1.0,
+    "mean_declared_habitat": 0.3325904033379694,
+    "model_distance_greedy": 3.0397774687065366,
+    "model_distance_taken": 3.0397774687065366,
+    "model_mean_action_error": 0.07334798449567383,
+    "oraa_best_objective": 0.032220166370334806,
+    "pollination_difference": 0.08451668984700972,
+    "pollination_difference_action": 0.08342309316619095,
+    "pollination_difference_pp": 8.451668984700971,
+    "received_reward_per_agent": 0.29761844494889994,
+    "reward_per_agent": 0.05776390820584143,
+    "signed_target_gap": 0.017409596662030576,
+    "steps": 719
+  },
+  "oraa_bound": 1.0,
+  "oraa_trials": 500,
+  "runtime_s": 10545.47266960144,
+  "seed": 2,
+  "steps": 1200,
+  "targets": [
+    0.35,
+    0.35,
+    0.35,
+    0.35
+  ]
+}

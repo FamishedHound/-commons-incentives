@@ -1,0 +1,71 @@
+{
+  "alphas": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "community": "HM1",
+  "condition": "oraa_mb",
+  "environment": {
+    "cuda_device": "NVIDIA GeForce RTX 5090",
+    "numpy": "2.1.2",
+    "optuna": "4.9.0",
+    "package_version": "1.0.0",
+    "python": "3.13.5",
+    "torch": "2.8.0+cu129"
+  },
+  "government": "HTC",
+  "kind": "branch",
+  "metrics": {
+    "budget_gross": 0.9861969785943675,
+    "budget_net": -0.03447800046131401,
+    "budget_penalties": -1.0206749790556815,
+    "cumulative_net_budget": -41.373600553576814,
+    "global_pollination_reward": 0.7902291666666668,
+    "greedy_fraction": 0.6008333333333333,
+    "mean_declared_habitat": 0.8016104166666667,
+    "model_distance_greedy": 0.0,
+    "model_distance_taken": 3.17725,
+    "model_mean_action_error": 1.3526942996046806e-09,
+    "oraa_best_objective": 0.4999999962622921,
+    "pollination_difference": 0.4404541666666667,
+    "pollination_difference_action": 0.4402983144567863,
+    "pollination_difference_pp": 44.04541666666667,
+    "received_reward_per_agent": 0.4863726767636141,
+    "reward_per_agent": 0.3951145833333333,
+    "signed_target_gap": -0.30161041666666666,
+    "steps": 1200
+  },
+  "metrics_greedy": {
+    "budget_gross": 0.9872705805856594,
+    "budget_net": -0.025682502591391803,
+    "budget_penalties": -1.0129530831770515,
+    "cumulative_net_budget": -18.51708436839349,
+    "global_pollination_reward": 0.9993065187239945,
+    "greedy_fraction": 1.0,
+    "mean_declared_habitat": 1.0,
+    "model_distance_greedy": 0.0,
+    "model_distance_taken": 0.0,
+    "model_mean_action_error": 1.57002988276306e-09,
+    "oraa_best_objective": 0.4999999959078642,
+    "pollination_difference": 0.5,
+    "pollination_difference_action": 0.49999999641421433,
+    "pollination_difference_pp": 50.0,
+    "received_reward_per_agent": 0.5587220270249522,
+    "reward_per_agent": 0.4996532593619972,
+    "signed_target_gap": -0.5,
+    "steps": 721
+  },
+  "oraa_bound": 1.0,
+  "oraa_trials": 500,
+  "runtime_s": 10194.041835546494,
+  "seed": 4,
+  "steps": 1200,
+  "targets": [
+    0.2,
+    0.1,
+    0.8,
+    0.9
+  ]
+}

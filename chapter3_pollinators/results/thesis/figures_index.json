@@ -1,0 +1,154 @@
+{
+ "bars_HT_HTC": {
+  "caption": "HT+HTC: reward, pollination difference and budget per setting. LToS (hatched) has no external budget: its budget bars are the reward a landowner receives from the others net of what it gives (zero by construction) and its positive part.",
+  "files": [
+   "bars_HT_HTC.pdf",
+   "bars_HT_HTC.png",
+   "bars_HT_HTC.csv"
+  ]
+ },
+ "budget_cumulative_HT_HTC": {
+  "caption": "Cumulative net budget of Omniscient and Model-based ORAA in HT+HTC.",
+  "files": [
+   "budget_cumulative_HT_HTC.pdf",
+   "budget_cumulative_HT_HTC.png",
+   "budget_cumulative_HT_HTC.csv"
+  ]
+ },
+ "budget_cumulative_HT_HTC_by_setting": {
+  "caption": "Cumulative net budget per setting in HT+HTC.",
+  "files": [
+   "budget_cumulative_HT_HTC_by_setting.pdf",
+   "budget_cumulative_HT_HTC_by_setting.png",
+   "budget_cumulative_HT_HTC_by_setting.csv"
+  ]
+ },
+ "ltos_comparison_HT_HTC": {
+  "caption": "HT+HTC: LToS against Model-based ORAA.",
+  "files": [
+   "ltos_comparison_HT_HTC.pdf",
+   "ltos_comparison_HT_HTC.png",
+   "ltos_comparison_HT_HTC.csv"
+  ]
+ },
+ "timeseries_HT_HTC": {
+  "caption": "HT+HTC: regulated runs and the run without a regulator over the whole run (moving average over 100 steps; vertical lines: curriculum start, step counter start, branch point at counted step 1,000). LToS: its net incentive is zero by construction; the dashed line is the reward moved between landowners.",
+  "files": [
+   "timeseries_HT_HTC.pdf",
+   "timeseries_HT_HTC.png",
+   "timeseries_HT_HTC.csv"
+  ]
+ },
+ "oraa_response_HT_HTC": {
+  "caption": "HT+HTC: each landowner's mean action at the branch point against ORAA's incentive, with the landowners' and with the model's actors.",
+  "files": [
+   "oraa_response_HT_HTC.pdf",
+   "oraa_response_HT_HTC.png",
+   "oraa_response_HT_HTC.csv"
+  ]
+ },
+ "bars_HT_HMC": {
+  "caption": "HT+HMC: reward, pollination difference and budget per setting.",
+  "files": [
+   "bars_HT_HMC.pdf",
+   "bars_HT_HMC.png",
+   "bars_HT_HMC.csv"
+  ]
+ },
+ "budget_cumulative_HT_HMC": {
+  "caption": "Cumulative net budget of Omniscient and Model-based ORAA in HT+HMC.",
+  "files": [
+   "budget_cumulative_HT_HMC.pdf",
+   "budget_cumulative_HT_HMC.png",
+   "budget_cumulative_HT_HMC.csv"
+  ]
+ },
+ "budget_cumulative_HT_HMC_by_setting": {
+  "caption": "Cumulative net budget per setting in HT+HMC.",
+  "files": [
+   "budget_cumulative_HT_HMC_by_setting.pdf",
+   "budget_cumulative_HT_HMC_by_setting.png",
+   "budget_cumulative_HT_HMC_by_setting.csv"
+  ]
+ },
+ "timeseries_HT_HMC": {
+  "caption": "HT+HMC: regulated runs and the run without a regulator over the whole run (moving average over 100 steps; vertical lines: curriculum start, step counter start, branch point at counted step 1,000). LToS: its net incentive is zero by construction; the dashed line is the reward moved between landowners.",
+  "files": [
+   "timeseries_HT_HMC.pdf",
+   "timeseries_HT_HMC.png",
+   "timeseries_HT_HMC.csv"
+  ]
+ },
+ "oraa_response_HT_HMC": {
+  "caption": "HT+HMC: each landowner's mean action at the branch point against ORAA's incentive, with the landowners' and with the model's actors.",
+  "files": [
+   "oraa_response_HT_HMC.pdf",
+   "oraa_response_HT_HMC.png",
+   "oraa_response_HT_HMC.csv"
+  ]
+ },
+ "bars_HM_HMC": {
+  "caption": "HM+HMC: reward, pollination difference and budget per setting.",
+  "files": [
+   "bars_HM_HMC.pdf",
+   "bars_HM_HMC.png",
+   "bars_HM_HMC.csv"
+  ]
+ },
+ "timeseries_HM_HMC": {
+  "caption": "HM+HMC: regulated runs and the run without a regulator over the whole run (moving average over 100 steps; vertical lines: curriculum start, step counter start, branch point at counted step 1,000). LToS: its net incentive is zero by construction; the dashed line is the reward moved between landowners.",
+  "files": [
+   "timeseries_HM_HMC.pdf",
+   "timeseries_HM_HMC.png",
+   "timeseries_HM_HMC.csv"
+  ]
+ },
+ "oraa_response_HM_HMC": {
+  "caption": "HM+HMC: each landowner's mean action at the branch point against ORAA's incentive, with the landowners' and with the model's actors.",
+  "files": [
+   "oraa_response_HM_HMC.pdf",
+   "oraa_response_HM_HMC.png",
+   "oraa_response_HM_HMC.csv"
+  ]
+ },
+ "bars_HM_HTC": {
+  "caption": "HM+HTC: reward, pollination difference and budget per setting.",
+  "files": [
+   "bars_HM_HTC.pdf",
+   "bars_HM_HTC.png",
+   "bars_HM_HTC.csv"
+  ]
+ },
+ "timeseries_HM_HTC": {
+  "caption": "HM+HTC: regulated runs and the run without a regulator over the whole run (moving average over 100 steps; vertical lines: curriculum start, step counter start, branch point at counted step 1,000). LToS: its net incentive is zero by construction; the dashed line is the reward moved between landowners.",
+  "files": [
+   "timeseries_HM_HTC.pdf",
+   "timeseries_HM_HTC.png",
+   "timeseries_HM_HTC.csv"
+  ]
+ },
+ "oraa_response_HM_HTC": {
+  "caption": "HM+HTC: each landowner's mean action at the branch point against ORAA's incentive, with the landowners' and with the model's actors.",
+  "files": [
+   "oraa_response_HM_HTC.pdf",
+   "oraa_response_HM_HTC.png",
+   "oraa_response_HM_HTC.csv"
+  ]
+ },
+ "bars_HT_HTC_bounds": {
+  "caption": "HT+HTC bounds: no regulator, reward-shape and both forms of ORAA with the incentive bound 1 and 3 (cross-hatched), per setting; ORAA's best objective is |target - mean action| the search reached on the actors it consulted.",
+  "files": [
+   "bars_HT_HTC_bounds.pdf",
+   "bars_HT_HTC_bounds.png",
+   "bars_HT_HTC_bounds.csv"
+  ]
+ },
+ "oraa_response_HT_HTC_bounds": {
+  "caption": "HT+HTC bounds: each landowner's mean action at the branch point against ORAA's incentive, with the landowners' and with the model's actors. Incentives up to 3 in magnitude; the shaded band is the default range [-1, 1].",
+  "files": [
+   "oraa_response_HT_HTC_bounds.pdf",
+   "oraa_response_HT_HTC_bounds.png",
+   "oraa_response_HT_HTC_bounds.csv"
+  ]
+ }
+}

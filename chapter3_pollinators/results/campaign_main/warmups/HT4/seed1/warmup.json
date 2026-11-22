@@ -1,0 +1,24 @@
+{
+  "alphas": [
+    1.0,
+    0.9,
+    0.8,
+    0.4
+  ],
+  "branch_step": 7015,
+  "community": "HT4",
+  "environment": {
+    "cuda_device": "NVIDIA GeForce RTX 5090",
+    "numpy": "2.1.2",
+    "optuna": "4.9.0",
+    "package_version": "1.0.0",
+    "python": "3.13.5",
+    "torch": "2.8.0+cu129"
+  },
+  "first_counted_step": 6016,
+  "kind": "warmup",
+  "precurriculum_step": 2016,
+  "runtime_s": 12234.353058815002,
+  "seed": 1,
+  "steps": 7015
+}

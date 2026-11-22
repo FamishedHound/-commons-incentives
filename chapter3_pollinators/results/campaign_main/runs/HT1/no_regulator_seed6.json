@@ -1,0 +1,105 @@
+{
+  "alphas": [
+    0.4,
+    1.0,
+    0.5,
+    0.6
+  ],
+  "by_government": {
+    "HMC": {
+      "metrics": {
+        "budget_gross": 0.0,
+        "budget_net": 0.0,
+        "budget_penalties": 0.0,
+        "cumulative_net_budget": 0.0,
+        "global_pollination_reward": 0.355859375,
+        "greedy_fraction": 0.6266666666666667,
+        "mean_declared_habitat": 0.40673298611111114,
+        "pollination_difference": 0.11084201388888891,
+        "pollination_difference_action": 0.10979491272940829,
+        "pollination_difference_pp": 11.084201388888891,
+        "received_reward_per_agent": 0.11497695312499999,
+        "reward_per_agent": 0.10088561197916666,
+        "signed_target_gap": -0.05673298611111112,
+        "steps": 1200
+      },
+      "metrics_greedy": {
+        "budget_gross": 0.0,
+        "budget_net": 0.0,
+        "budget_penalties": 0.0,
+        "cumulative_net_budget": 0.0,
+        "global_pollination_reward": 0.2769281914893617,
+        "greedy_fraction": 1.0,
+        "mean_declared_habitat": 0.3431139184397163,
+        "pollination_difference": 0.06651041666666667,
+        "pollination_difference_action": 0.06507404603265861,
+        "pollination_difference_pp": 6.651041666666667,
+        "received_reward_per_agent": 0.11426352642952127,
+        "reward_per_agent": 0.09825049867021275,
+        "signed_target_gap": 0.006886081560283671,
+        "steps": 752
+      },
+      "targets": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "HTC": {
+      "metrics": {
+        "budget_gross": 0.0,
+        "budget_net": 0.0,
+        "budget_penalties": 0.0,
+        "cumulative_net_budget": 0.0,
+        "global_pollination_reward": 0.355859375,
+        "greedy_fraction": 0.6266666666666667,
+        "mean_declared_habitat": 0.40673298611111114,
+        "pollination_difference": 0.3526322916666666,
+        "pollination_difference_action": 0.3523261447107628,
+        "pollination_difference_pp": 35.26322916666666,
+        "received_reward_per_agent": 0.11497695312499999,
+        "reward_per_agent": 0.10088561197916666,
+        "signed_target_gap": 0.09326701388888889,
+        "steps": 1200
+      },
+      "metrics_greedy": {
+        "budget_gross": 0.0,
+        "budget_net": 0.0,
+        "budget_penalties": 0.0,
+        "cumulative_net_budget": 0.0,
+        "global_pollination_reward": 0.2769281914893617,
+        "greedy_fraction": 1.0,
+        "mean_declared_habitat": 0.3431139184397163,
+        "pollination_difference": 0.3525110815602837,
+        "pollination_difference_action": 0.35221179517955653,
+        "pollination_difference_pp": 35.25110815602837,
+        "received_reward_per_agent": 0.11426352642952127,
+        "reward_per_agent": 0.09825049867021275,
+        "signed_target_gap": 0.15688608156028366,
+        "steps": 752
+      },
+      "targets": [
+        0.2,
+        0.1,
+        0.8,
+        0.9
+      ]
+    }
+  },
+  "community": "HT1",
+  "condition": "no_regulator",
+  "environment": {
+    "cuda_device": "NVIDIA GeForce RTX 5090",
+    "numpy": "2.1.2",
+    "optuna": "4.9.0",
+    "package_version": "1.0.0",
+    "python": "3.13.5",
+    "torch": "2.8.0+cu129"
+  },
+  "kind": "no_regulator",
+  "runtime_s": 6301.926705360413,
+  "seed": 6,
+  "start_step": 2016,
+  "steps": 6199
+}

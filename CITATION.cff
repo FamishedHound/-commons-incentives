@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the paper given under
+  preferred-citation and the thesis listed under references.
+type: software
+title: "chapter3_pollinators: ORAA, P-MADDPG and LToS in the Pollinators' Game"
+abstract: >-
+  The experiments of Chapter 3 of the thesis: the Pollinators' Game, a
+  property-based commons dilemma in land use; the P-MADDPG landowner learners;
+  the ORAA regulatory agent (Online Regulatory Agent Algorithm) in its
+  Model-based and Omniscient forms; the reward-shape baseline; LToS as a
+  learned reward-sharing baseline; and the campaign and analysis code that
+  produce the chapter's tables and figures.
+authors:
+  - family-names: Pelcner
+    given-names: Lukasz
+license: MIT
+keywords:
+  - multi-agent reinforcement learning
+  - commons dilemma
+  - incentive design
+  - land use
+repository-code: "https://github.com/FamishedHound/-commons-incentives"
+preferred-citation:
+  type: conference-paper
+  title: "Incentive-driven Multi-Agent Reinforcement Learning Approach for Commons Dilemmas in Land-Use"
+  authors:
+    - family-names: Pelcner
+      given-names: Lukasz
+    - family-names: do Carmo Alves
+      given-names: Matheus Aparecido
+    - family-names: Marcolino
+      given-names: Leandro Soriano
+    - family-names: Harrison
+      given-names: Paula A.
+    - family-names: Atkinson
+      given-names: Peter M.
+  collection-title: "PRIMA 2024: Principles and Practice of Multi-Agent Systems"
+  collection-type: proceedings
+  conference:
+    name: "PRIMA 2024: 25th International Conference on Principles and Practice of Multi-Agent Systems"
+    city: Kyoto
+    country: JP
+  publisher:
+    name: Springer
+  year: 2024
+  start: 284
+  end: 289
+  doi: "10.1007/978-3-031-77367-9_21"
+references:
+  - type: thesis
+    title: "Multi-Level Agent-Based Land Use Decision-Making Using Multi-Agent Reinforcement Learning"
+    authors:
+      - family-names: Pelcner
+        given-names: Lukasz
+    thesis-type: "PhD thesis"
+    institution:
+      name: "Lancaster University"
+    year: 2026
+    section: "Chapter 3"

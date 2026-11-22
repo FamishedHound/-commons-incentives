@@ -1,0 +1,12 @@
+[run]
+source = chapter3_pollinators
+omit =
+    */.venv/*
+    */tests/*
+    */campaign/__main__.py
+    */campaign/measure.py
+    */analysis/__main__.py
+
+[report]
+show_missing = True
+skip_covered = False

@@ -1,0 +1,71 @@
+{
+  "alphas": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "community": "HM1",
+  "condition": "oraa_mb",
+  "environment": {
+    "cuda_device": "NVIDIA GeForce RTX 5090",
+    "numpy": "2.1.2",
+    "optuna": "4.9.0",
+    "package_version": "1.0.0",
+    "python": "3.13.5",
+    "torch": "2.8.0+cu129"
+  },
+  "government": "HTC",
+  "kind": "branch",
+  "metrics": {
+    "budget_gross": 0.9980602955172352,
+    "budget_net": 0.009566560308740488,
+    "budget_penalties": -0.9884937352084948,
+    "cumulative_net_budget": 11.479872370488586,
+    "global_pollination_reward": 0.8029375,
+    "greedy_fraction": 0.6191666666666666,
+    "mean_declared_habitat": 0.81316875,
+    "model_distance_greedy": 0.0,
+    "model_distance_taken": 2.9948333333333337,
+    "model_mean_action_error": 1.0977188745949403e-09,
+    "oraa_best_objective": 0.4999999977275729,
+    "pollination_difference": 0.4398111111111112,
+    "pollination_difference_action": 0.4396886965923115,
+    "pollination_difference_pp": 43.98111111111112,
+    "received_reward_per_agent": 0.49673583728086157,
+    "reward_per_agent": 0.40146875,
+    "signed_target_gap": -0.31316875,
+    "steps": 1200
+  },
+  "metrics_greedy": {
+    "budget_gross": 0.9998625277292083,
+    "budget_net": 0.017296704038333173,
+    "budget_penalties": -0.9825658236908751,
+    "cumulative_net_budget": 12.851451100481547,
+    "global_pollination_reward": 0.9992429340511441,
+    "greedy_fraction": 1.0,
+    "mean_declared_habitat": 1.0,
+    "model_distance_greedy": 0.0,
+    "model_distance_taken": 0.0,
+    "model_mean_action_error": 1.014803171471252e-09,
+    "oraa_best_objective": 0.49999999795434935,
+    "pollination_difference": 0.5,
+    "pollination_difference_action": 0.499999998088052,
+    "pollination_difference_pp": 50.0,
+    "received_reward_per_agent": 0.5666632781428231,
+    "reward_per_agent": 0.49962146702557203,
+    "signed_target_gap": -0.5,
+    "steps": 743
+  },
+  "oraa_bound": 1.0,
+  "oraa_trials": 500,
+  "runtime_s": 15363.71884226799,
+  "seed": 2,
+  "steps": 1200,
+  "targets": [
+    0.2,
+    0.1,
+    0.8,
+    0.9
+  ]
+}
