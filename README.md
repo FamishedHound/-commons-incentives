@@ -62,7 +62,7 @@ python -m chapter3_pollinators.analysis --root chapter3_pollinators/results/camp
 | Figures 3.12 and 3.13 | `timeseries_HT_HTC`, `timeseries_HT_HMC` |
 | Table 3.4 | `table_HT_HTC_bounds.tex` |
 
-`<group>` is `HT_HTC`, `HT_HMC`, `HM_HMC`, `HM_HTC` or `HT_HTC_bounds`. Every figure has a `.csv` with the numbers it draws.
+`<group>` is `HT_HTC`, `HT_HMC`, `HM_HMC`, `HM_HTC` or `HT_HTC_bounds`. Every figure has a `.csv` with the numbers it draws. `timeseries_HT_HTC` also draws the two conditions with the incentive bound 3 (Section 3.6.1); Figure 3.12 as printed shows the five conditions of Figure 3.5.
 
 Figures 3.11 and 3.14 are drawn from the landowners' networks saved at the end of each warm-up. Those checkpoints are about 41 GB and are not distributed; the numbers behind the two figures are in their `.csv` files, and running the warm-ups again (below) with `--response-curves` in the analysis redraws them.
 
