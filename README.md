@@ -6,6 +6,8 @@ The **Pollinators' Game** is a small commons dilemma in land use. Four landowner
 
 The repository has the game, the landowners' learner (**P-MADDPG**), the regulator (**ORAA**, the Online Regulatory Agent Algorithm, planning with learned models of the landowners or with their own policies), a reward-shaping baseline, **LToS** as a second baseline, and the code that runs the experiments and makes the tables and figures of the chapter. The record of every run reported in the chapter is included.
 
+This repository was prepared after the thesis was examined, as part of its corrections, using an AI coding assistant. The game, P-MADDPG, ORAA and the reward-shaping baseline are a cleaned-up and clarified port of the original research code, which is not part of this repository. The LToS baseline, the experiment campaign and the analysis were written for the corrected thesis, and every experiment in Chapter 3 was run again with this code.
+
 If you use this code, please cite the paper (see [Citation](#citation)).
 
 ## What is where
